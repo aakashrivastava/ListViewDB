@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="75sp">
+
+    <TextView
+        android:layout_width="70sp"
+        android:layout_height="match_parent"
+        android:id="@+id/q_id"
+        android:layout_alignParentLeft="true"
+        android:text="ID"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:layout_width="150sp"
+        android:layout_height="match_parent"
+        android:id="@+id/q_name"
+        android:layout_toRightOf="@id/q_id"
+        android:text="NAME"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:layout_width="70sp"
+        android:layout_height="match_parent"
+        android:id="@+id/q_price"
+        android:layout_toRightOf="@id/q_name"
+        android:text="Price"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:layout_width="70sp"
+        android:layout_height="match_parent"
+        android:id="@+id/q_qty"
+        android:layout_toRightOf="@id/q_price"
+        android:text="QTY"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+</RelativeLayout>
